@@ -1,0 +1,22 @@
+.wrapper {
+  background: top no-repeat url(img/background.svg);
+  background-size: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 60px;
+  margin-top: 70px;
+  font: 900 18px/21px "roboto", arial, helvetica, sans-serif;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu__item:last-child {
+  margin-right: 130px;
+}
