@@ -195,6 +195,7 @@ body {
 
 .section-3rd {
   background-color: #E3EAFE;
+  margin: 0;
 }
 
 .section-3rd__header {
@@ -213,11 +214,15 @@ body {
 }
 
 .secion-3rd__images {
-  padding-left: 9%;
+  padding-left: 10%;
+  margin: 0;
 }
 
+.secion-3rd__images-container {
+  margin: 0;
+}
 .secion-3rd__images-all {
-  margin-right: 17px;
+  margin-right: 16px;
   margin-bottom: 65px;
 }
 
@@ -232,4 +237,5 @@ body {
 
 .footer__content {
   justify-content: space-between;
+  display:flex;
 }
