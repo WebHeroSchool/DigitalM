@@ -260,24 +260,24 @@ body {
 .footer__right {
   display: flex;
   flex-direction: row;
-  padding-top: 3%;
+  padding-top: 2%;
   width: 26%;
 }
 
 .footer__right-wa {
-  padding-top: 4%;
+  padding-top: 7%;
   height: 52px;
-  padding-right: 8%;
-  padding-left: 6%;
+  padding-right: 7%;
+  padding-left: 9%;
 }
 
 .footer__right-telg {
   height: 43px;
-  padding-top: 6%;
+  padding-top: 8%;
 }
 
 .footer__text-contacts {
-  padding-right: 0%;
   font-size: 18px;
-  margin-top: -7px;
+  padding-top: 4%;
+  line-height: 69%;
 }
