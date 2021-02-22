@@ -214,28 +214,70 @@ body {
 }
 
 .secion-3rd__images {
-  padding-left: 10%;
-  margin: 0;
+  margin-left: 10%;
+  padding-bottom: 1%;
 }
 
 .secion-3rd__images-container {
   margin: 0;
 }
 .secion-3rd__images-all {
-  margin-right: 16px;
+  margin-right: 15px;
   margin-bottom: 65px;
+  margin-top: 0;
 }
 
 .secion-3rd__images-end {
-  margin-right: 0;
+  margin-right: 0px;
   margin-bottom: 65px;
 }
 
 .footer {
   background-color: #0E1E71;
+  padding-bottom: 7.3%;
 }
 
 .footer__content {
   justify-content: space-between;
   display:flex;
+  margin-left: 10%;
+}
+
+.footer__left-vector {
+  padding-top: 29%;
+  height: 23px;
+}
+
+.footer__text-left {
+  padding-left: 5%;
+  margin-top: 29%;
+}
+.footer__left {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+}
+.footer__right {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  width: 26%;
+}
+
+.footer__right-wa {
+  padding-top: 4%;
+  height: 52px;
+  padding-right: 8%;
+  padding-left: 6%;
+}
+
+.footer__right-telg {
+  height: 43px;
+  padding-top: 6%;
+}
+
+.footer__text-contacts {
+  padding-right: 0%;
+  font-size: 18px;
+  margin-top: -7px;
 }
