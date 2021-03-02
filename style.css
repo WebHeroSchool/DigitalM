@@ -255,6 +255,7 @@ body {
 .secion-3rd__images {
   margin-left: 10%;
   padding-bottom: 1%;
+  text-align: center;
 }
 
 .secion-3rd__images-container {
@@ -267,7 +268,7 @@ body {
 }
 
 .secion-3rd__images-end {
-  margin-right: 0px;
+  margin-right: 15px;
   margin-bottom: 65px;
 }
 
@@ -385,6 +386,13 @@ body {
   display: none;
 }
 
+@media (max-width: 1400px) {
+  .secion-3rd__images {
+    text-align: center;
+    margin-left: 11%;
+  }
+}
+
 @media (max-width: 1366px) {
   .menu {
     width: 62%;
@@ -405,11 +413,8 @@ body {
   .section-2nd__container-1st-text {
     padding-left: 21%;
   }
-  .secion-3rd__images-all {
-    margin-right: 83px;
-  }
-  .secion-3rd__images-end {
-    margin-right: 83px;
+  .secion-3rd__images {
+    text-align: center;
   }
   .footer__right {
     width: 28%;
@@ -417,15 +422,29 @@ body {
 }
 
 @media (max-width: 1330px) {
-  .secion-3rd__images-container {
-    margin-left: 20%;
+  .secion-3rd__images {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1150px) {
+  .menu {
+    width: 69%;
+    margin-left: 3%;
+  }
+  .intro__button {
+    margin-left: 80%;
+  }
+  .footer__right {
+    width: 33%;
   }
 }
 
 @media (max-width: 1024px) {
   .menu {
     width: 73%;
-    padding-left: 19%;
+    padding-left: 22%;
+    margin-left: 8%;
   }
   .menu__item {
     padding-right: 5%;
@@ -457,16 +476,8 @@ body {
     padding-right: 16px;
     padding-top: 6%;
   }
-  .secion-3rd__images-all {
-    margin-left: 6%;
-    margin-right: 10%;
-  }
-  .secion-3rd__images-end {
-    margin-left: 6%;
-    margin-right: 10%;
-  }
-  .secion-3rd__images-container {
-margin-left: 0%;
+  .secion-3rd__images {
+    text-align: center;
   }
   .section-3rd__header-text {
     width: 51%;
@@ -474,6 +485,15 @@ body {
   }
   .footer__right {
     width: 37%;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer__right {
+  width: fit-content;
+  }
+  .intro__button {
+    margin-left: 75%;
   }
 }
 
@@ -595,6 +615,48 @@ body {
   }
 }
 
+@media (max-width: 640px) {
+  .intro__button {
+    margin-left: 65%;
+  }
+  .section-2nd__container-2nd {
+  padding-left: 33%;
+  }
+  .section-2nd {
+    height: 474px;
+  }
+  .section-3rd__header-text {
+    text-align: center;
+  }
+  .secion-3rd__img1 {
+  margin-left: 22%;
+  }
+  .footer__text-contacts {
+    font-size: 16px;
+  }
+  .footer__right {
+    width: 50%;
+  }
+  .footer__right-wa {
+    height: 40px;
+  }
+  .footer__right-telg {
+    height: 42px;
+  }
+  .section-2nd__container-1st-text {
+    padding-left: 37%;
+  }
+}
+
+@media (max-width: 580px) {
+  .section-2nd {
+    height: 458px;
+  }
+  .section-2nd__container-1st-text {
+    width: 87%;
+  }
+}
+
 @media (max-width: 560px) {
   .intro__subtitle {
     width: 57%;
@@ -624,7 +686,7 @@ body {
     margin-left: 24%;
   }
   .secion-3rd__images {
-    margin-left: 0%;
+    margin-left: 8%;
   }
   .footer__left-vector {
     height: 16px;
@@ -644,6 +706,39 @@ body {
   }
   .footer__text-left {
     margin-top: 20%;
+  }
+}
+
+@media (max-width: 420px) {
+  .intro__button {
+  margin-left: 46%;
+  }
+  .section-2nd__container-1st-text {
+    width: 100%;
+    padding-left: 28%;
+  }
+  .section-2nd__container-2nd {
+    padding-left: 22%;
+  }
+  .section-2nd__container-3rd-button {
+    margin-left: 30%;
+  }
+  .section-3rd__header-text {
+font-size: 25px;
+width: 75%;
+margin-left: 18%;
+  }
+  .secion-3rd__img1 {
+    margin-left: 12%;
+  }
+  .footer__right {
+    width: 53%;
+  }
+  .footer__text-contacts {
+    font-size: 11px;
+  }
+  .footer__text-left {
+    font-size: 11px;
   }
 }
 
@@ -687,13 +782,13 @@ body {
   }
   .section-2nd__container-1st-for {
     font-size: 20px;
-    padding-left: 35%;
+    padding-left: 32%;
   }
   .section-2nd__container-1st {
   width: 89%;
   }
   .section-2nd__container-1st-text {
-    padding-left: 20%;
+    padding-left: 13%;
     font-size: 12px;
     line-height: 15px;
     margin-top: 0%;
@@ -725,7 +820,7 @@ body {
     padding-top: 0%;
   }
   .secion-3rd__images-container {
-    margin-left: 9%;
+    margin-left: 2%;
   }
   .section__other-button-buy-yellow {
     width: 251px;
@@ -897,10 +992,13 @@ body {
     padding-top: 8%;
   }
   .secion-3rd__images-container {
-margin-left: 10%;
+    margin-left: 10%;
   }
   .section-3rd__circles {
-    margin-left: 43%;
-    padding-bottom: 14%;
+    margin-left: 43%;
+    padding-bottom: 14%;
+  }
+  .secion-3rd__images {
+    margin-left: 0%;
   }
 }
