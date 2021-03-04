@@ -255,7 +255,6 @@ body {
 .secion-3rd__images {
   margin-left: 10%;
   padding-bottom: 1%;
-  text-align: center;
 }
 
 .secion-3rd__images-container {
@@ -268,7 +267,7 @@ body {
 }
 
 .secion-3rd__images-end {
-  margin-right: 15px;
+  margin-right: 1px;
   margin-bottom: 65px;
 }
 
@@ -291,7 +290,7 @@ body {
 
 .footer__text-left {
   padding-left: 4%;
-  margin-top: 30%;
+  margin-top: 32%;
   font-size: 15px;
   line-height: 21px;
 }
